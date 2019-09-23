@@ -1,0 +1,96 @@
+label.middle {
+    margin: 0;
+    vertical-align: middle;
+}
+
+input[type=checkbox] {
+    margin: 0 4px 0 0;
+}
+
+.tb-discuz {
+    height: 30px;
+    line-height: 30px;
+}
+
+.navigation-container {}
+
+.navigation-container .nav-row {
+    zoom: 1;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position-x: -200px;
+    background-image: url(data:image/gif;base64,R0lGODlh4QAyANUAAMjIyPv7+/j4+OXl5d3d3c7OzvX19ejo6NLS0tTU1PHx8d7e3sfHx9PT0/7+/s3Nze/v79jY2Pz8/MPDw8rKytnZ2dXV1fPz88DAwPn5+dra2ry8vOHh4erq6uLi4sbGxv39/b+/v8zMzP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4zLWMwMTEgNjYuMTQ1NjYxLCAyMDEyLzAyLzA2LTE0OjU2OjI3ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFRjgwN0Y5RkRDRDIxMUU5OEY1MUUyNTJDMTE2QUJFMSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFRjgwN0Y5RURDRDIxMUU5OEY1MUUyNTJDMTE2QUJFMSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuZGlkOkMxN0JDQzIwRDBEQ0U5MTFBMERBQ0UwRjhCMkE3RUVEIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkMxN0JDQzIwRDBEQ0U5MTFBMERBQ0UwRjhCMkE3RUVEIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Af/+/fz7+vn49/b19PPy8fDv7u3s6+rp6Ofm5eTj4uHg397d3Nva2djX1tXU09LR0M/OzczLysnIx8bFxMPCwcC/vr28u7q5uLe2tbSzsrGwr66trKuqqainpqWko6KhoJ+enZybmpmYl5aVlJOSkZCPjo2Mi4qJiIeGhYSDgoGAf359fHt6eXh3dnV0c3JxcG9ubWxramloZ2ZlZGNiYWBfXl1cW1pZWFdWVVRTUlFQT05NTEtKSUhHRkVEQ0JBQD8+PTw7Ojk4NzY1NDMyMTAvLi0sKyopKCcmJSQjIiEgHx4dHBsaGRgXFhUUExIREA8ODQwLCgkIBwYFBAMCAQAAIfkEAAAAAAAsAAAAAOEAMgAABv9AwWhILBqPyKRyyWw6k8KndEqtWq/FAXbL7Sq13rD4uugixuh086xuu4eTLuBNT8/reG8jz+/7/10SXQGAhU2EholtB4qNRYyOjgpdCZGOlZaKD10FmYqdnoYMXQShhqWmgBFdBqmAra5+ELG0tYoOtrm6eVFbZbtvv8BtYFtxw23HyGlsW3vLac/QY3dbgtNj19jb3N1tiFuT3lzi41iQW5vmWOrrVphbo+5W8vNUoFur9lT6+1KoW2b5kyJwoBNYW3AZdKJwYZ1eDpVAjIhkopViFJFgzGjEghmOSZqBLIJBA4chCiqIsNCBUAgKHkCMuNBgA4By1UYSyalzRL2CnkDTUBgUdAg4oB+6oAO6tGcFSkVHwAOagVNUfFG3AAS6tSdCLF+9Ru2atWwVrFcsjlQLcuqVjTrhjmxqRWRPuzqPXuGpk6/Zv4CV+KWiN29UvFXozo0ql4pbnY/XWi2KVmdDLGRHZgZZEGzUsDr7BR695Cfp00baYREGlHXPcliCAAA7)
+}
+
+.navigation-container .submenu {
+    width: 100%;
+}
+
+/* 二级分类左内边距 */
+.navigation-container .submenu.depth-2 .nav-row {
+    background-position-x: -100px;
+    padding-left: 100px;
+}
+
+/* 三级分类左内边距 */
+.navigation-container .submenu.depth-3 .nav-row {
+    background-position-x: 0;
+    padding-left: 200px;
+}
+
+.navigation-container .nav-row .fl {
+    margin-right: 10px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.navigation-container .nav-row .cell-nav-name {
+    padding-left: 30px;
+}
+
+.navigation-container .nav-row .cell-nav-name input[type=text] {
+    width: 120px;
+}
+
+.navigation-container .nav-row .cell-nav-url input[type=text] {
+    width: 200px;
+}
+
+.navigation-container .nav-row:after {
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+    content: ".";
+}
+
+.navigation-container .nav-row .fl {
+    float: left;
+}
+
+.navigation-container .nav-row .fr {
+    float: right;
+}
+
+.navigation-container .nav-row .cell-operation a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navigation-container .nav-row .cell-operation a.btn-new i,
+.navigation-container .nav-row .cell-operation a.btn-delete i {
+    margin-right: 2px;
+}
+
+.navigation-container .nav-row .cell-operation a.btn-move-up {
+    color: #00A65A;
+}
+
+.navigation-container .nav-row .cell-operation a.btn-move-down {
+    color: #F39C12;
+}
+
+.navigation-container .nav-row .cell-operation a.btn-delete {
+    color: #DD4B39;
+}

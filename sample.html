@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <title></title>
+    <link href="nav.css" rel="stylesheet" />
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="nav.js"></script>
+</head>
+
+<body>
+    <div id="navigation-container" class="navigation-container">
+    </div>
+
+    <div>
+        <a id="btn-save" href="javascript:;" class="btn btn-primary"><i class="fa fa-save"></i> 保存导航配置</a>
+        <a id="btn-addnav" href="javascript:;" class="btn btn-default"><i class="fa fa-plus-circle"></i> 添加一级菜单</a>
+    </div>
+    结果：
+    <textarea id="result" style="width:100%;height:200px;"></textarea>
+    <script>
+        var elButtonAddNavigation = document.querySelector('#btn-addnav'),
+            elSaveButton = document.querySelector('#btn-save');
+
+        $(function() {
+            var nav = new Navigator('navigation-container', {
+                levels: 3
+            });
+
+            elButtonAddNavigation.onclick = function() {
+                nav.add();
+            };
+
+            elSaveButton.onclick = function() {
+                document.querySelector('#result').value = JSON.stringify(nav.get_json_data());
+            };
+        });
+    </script>
+</body>
+
+</html>
